@@ -1,5 +1,6 @@
 .flex-container {
     display: flex;
+    margin: 20 px;
 }
 
 .flex-container div {
@@ -7,7 +8,6 @@
     border: 4px solid brown;
     height: 100px;
     flex: 1;
-    margin: 20 px;
 }
 
 .container {
@@ -28,4 +28,11 @@
 
 .item2 {
     display: flex;
+}
+
+.under {
+    flex: 1;
+    background-color: lightcoral;
+    border: 4px solid red;
+    margin: 4px;
 }
